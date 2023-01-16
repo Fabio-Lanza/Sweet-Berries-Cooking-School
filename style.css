@@ -71,9 +71,9 @@ body {
 /* ===== Banners ======= */
 .banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
+  margin: 80px;
 }
 
 .banner-left h1 {
