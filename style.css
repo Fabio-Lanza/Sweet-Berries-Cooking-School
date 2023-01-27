@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 .header a:hover {
-  color: var(--text-color);
+  color: var(--secondary-color);
 }
 
 .header img {
@@ -59,9 +59,9 @@ body {
 }
 
 .header button:hover {
-  background-color: var(--text-color);
+  background-color: var(--secondary-color);
   outline: none;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .mobile {
@@ -104,6 +104,7 @@ body {
   gap: 70px;
   margin-top: 100px;
   margin-bottom: 90px;
+  
 }
 
 .card-container #card {
@@ -184,7 +185,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: ;
+  
 }
 
 .footer img {
