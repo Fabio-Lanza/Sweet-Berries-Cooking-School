@@ -1,3 +1,4 @@
+/* Great job on using CSS variables! */
 :root {
   --bg-color: #f5f3ef;
   --black-color: #000;
@@ -19,11 +20,17 @@ body {
 }
 
 .container {
+  /* CSS Grid and Flexbox haven’t been used together. You haven't used Grid in your project.
+  Change the main layout to be a Grid so that you can practice using Grid and flex box together. */
   width: 100vw;
   height: 100vh;
 }
 
+/* You haven’t added the “Robot Serif” font to the h1,h2,h3 elements like the Figma file. */
+
 /* ====== Header ======= */
+
+/* You’ve used Flexbox but it’s not fully responsive. */
 .header {
   height: 100px;
   display: flex;
@@ -97,6 +104,7 @@ body {
 }
 
 /* ===== Cards ======= */
+/* This card-container should be a grid as the cards are organized in a very uniform way with columns and rows */
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -107,6 +115,8 @@ body {
   
 }
 
+/* Please stay away from px and stick to more responsive units such as %.
+Make this a rule of thumb and you will thank yourself cause it makes things a lot easier to make responsive */
 .card-container #card {
   background-color: var(--secondary-color);
   width: 400px;
@@ -194,7 +204,9 @@ body {
 }
 
 /* ====== media query ==== */
+/* You’ve used media queries but it needs improvement as it’s not fully responsive. */
 
+/* Use % instead of px. No need to try to make the webpage pixel perfect, this will only cause more problems. */
 @media (max-width: 768px) {
   .header {
     margin: 0 20px;
@@ -273,6 +285,9 @@ body {
 
 /* ====Mobile === */
 @media (max-width: 390px) {
+
+  /* When I click on the hamburger menu button, it is not a functioning menu.  */
+
   .header {
     display: none;
   }
